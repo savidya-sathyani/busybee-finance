@@ -1,0 +1,7 @@
+.fade-up {
+  @apply animate-fade-up animate-once animate-ease-linear animate-normal;
+}
+
+.fade-right {
+  @apply animate-fade-right animate-ease-in-out animate-alternate animate-fill-both;
+}

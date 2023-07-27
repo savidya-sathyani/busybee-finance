@@ -1,0 +1,19 @@
+.deco {
+  @apply relative h-full cursor-pointer;
+
+  .background {
+    @apply row-span-2 bg-cover rounded-tr-lg;
+  }
+
+  .text {
+    @apply pt-20 text-center rounded-br-lg;
+  }
+
+  .computer {
+    @apply absolute w-[360px] h-[200px] top-[50%] left-[50%] -translate-x-[50%] -translate-y-[10%]  bg-computer bg-cover;
+
+    .content {
+      @apply absolute w-[275px] h-[170px] top-[10px] left-[42.5px] bg-yellow-400 bg-cover;
+    }
+  }
+}

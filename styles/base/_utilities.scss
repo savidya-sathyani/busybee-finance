@@ -1,0 +1,19 @@
+.grid-1-row-center {
+  @apply grid grid-cols-1 justify-items-center justify-center items-center;
+}
+
+.grid-2-row-center {
+  @apply grid grid-cols-2 justify-center items-center;
+}
+
+.grid-2-3-col-center {
+  @apply grid grid-rows-3;
+}
+
+.heading-2 {
+  @apply font-inter text-3xl text-white mb-3;
+}
+
+.title-p {
+  @apply font-inter text-sm text-white mb-5;
+}

@@ -1,0 +1,11 @@
+.onboarding {
+  @apply h-full w-full;
+
+  .canvas {
+    @apply w-5/6 h-5/6 bg-gray-400 bg-opacity-25 rounded-lg shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px];
+
+    .form {
+      @apply h-full bg-slate-100 rounded-lg;
+    }
+  }
+}
