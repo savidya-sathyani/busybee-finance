@@ -1,4 +1,4 @@
-import LoginBackground from '@/components/LoginBackground';
+import OnboardingBackground from '@/components/OnboardingBackground';
 
 export const metadata = {
   title: 'BusyBee | Login',
@@ -9,7 +9,7 @@ const OnboardingLayout = ({ children }) => {
     <section className="grid-1-row-center onboarding">
       <div className="grid-2-row-center canvas">
         <div className="form">{children}</div>
-        <LoginBackground />
+        <OnboardingBackground />
       </div>
     </section>
   );

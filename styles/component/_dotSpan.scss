@@ -6,6 +6,6 @@
   }
 
   .active {
-    @apply bg-white w-[10px] h-[10px];
+    @apply bg-white w-[10px] h-[10px] transition-all ease-in-out duration-500;
   }
 }

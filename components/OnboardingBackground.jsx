@@ -2,14 +2,14 @@
 
 import { useEffect, useState } from 'react';
 
-import { getBackgroundContent, IMAGES } from '@/utils/onboardingHelpers';
+import { getBackgroundContent } from '@/utils/onboardingHelpers';
 import DotSpan from './common/DotSpan';
 
 const INITIAL_VALUES = {
   contentNo: 1,
 };
 
-const LoginBackground = () => {
+const OnboardingBackground = () => {
   const [contentNo, setContentNo] = useState(INITIAL_VALUES.contentNo);
   const [backgroundContent, setBackgroundContent] = useState(null);
 
@@ -34,7 +34,7 @@ const LoginBackground = () => {
       {backgroundContent && (
         <>
           <div
-            className="background fade-right hover:fade-up"
+            className="background"
             style={{
               backgroundImage: `url('/assets/images/background/login${backgroundContent.key}.svg')`,
             }}
@@ -63,4 +63,4 @@ const LoginBackground = () => {
   );
 };
 
-export default LoginBackground;
+export default OnboardingBackground;
